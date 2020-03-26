@@ -1,0 +1,25 @@
+# .ssh/config
+Host github.com
+    HostName github.com
+    User git
+    IdentitiesOnly yes
+    # PrivateTemp For DevHosts
+    IdentityFile ~/.ssh/PrivateTemp
+Host 122.112.234.103 
+    Port 2022
+Host raydunprod
+#122.112.234.103
+    HostName raydunprod
+    Port 2022
+Host 192.168.1.105
+    HostName 192.168.1.105
+    Port 2022
+Host *
+    User root
+    Port 22
+        # Generate
+    IdentityFile ~/.ssh/IntervalLevel1
+ServerAliveInterval 30
+ControlMaster auto
+ControlPath ~/.ssh/session.%h-%p-%r
+ControlPersist yes
