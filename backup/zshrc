@@ -114,3 +114,6 @@ source ${GTLIONSBASE}/apps/shell/envSource/gtlionsInit.sh
 
 # PROMPT='%m:%. $'
 
+# autojump
+[[ -s /root/.autojump/etc/profile.d/autojump.sh ]] && source /root/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
