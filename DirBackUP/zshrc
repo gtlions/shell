@@ -108,7 +108,7 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 unset MAILCHECK
 # gtlions
-source ${GTLIONSBASE}/apps/shell/envSource/gtlionsInit.sh
+source ${GTLIONSBASE}/apps/shell/DirEvnScript/gtlionsInit.sh
 
 #source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
