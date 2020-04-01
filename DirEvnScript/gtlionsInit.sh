@@ -6,7 +6,7 @@ CURRENTPATH=$(cd `dirname $0`; pwd)
 source ${GTLIONSBASE}/apps/shell/DirEvnScript/alias.sh
 
 # pyenv
-source ${GTLIONSBASE}/apps/shell/DirEvnScript/pyenv.sh
+#source ${GTLIONSBASE}/apps/shell/DirEvnScript/pyenv.sh
 
 # golang
 source ${GTLIONSBASE}/apps/golang/gosource.sh
