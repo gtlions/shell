@@ -14,4 +14,4 @@ mkdir -p ${DEVBUILDDIR}/c ${DEVBUILDDIR}/go
 
 alias syncfrom105='rsync -avzhe ssh root@192.168.1.105:/usr/local/gtlions /usr/local --delete'
 
-alias vm111='vmrun -T ws revertToSnapshot "/data/vm/svm/c101/c101.vmx" mysnapshot && vmrun -T ws start "/data/vm/svm/c101/c101.vmx" nogui'
+alias vm111='vmrun -T ws revertToSnapshot "/data/vm/svm/c111/c111.vmx" mysnapshot && vmrun -T ws start "/data/vm/svm/c111/c111.vmx" nogui'
