@@ -73,7 +73,7 @@ ZSH_THEME="powerline"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux node npm zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git z extract tmux node npm zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,12 +108,12 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 unset MAILCHECK
 # gtlions
-source ${GTLIONSBASE}/apps/shell/DirEvnScript/gtlionsInit.sh
+source ${GTLIONSBASE}/apps/shell/DirEnvScript/gtlionsInit.sh
 
 #source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # PROMPT='%m:%. $'
 
 # autojump
-[[ -s /root/.autojump/etc/profile.d/autojump.sh ]] && source /root/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
+#[[ -s /root/.autojump/etc/profile.d/autojump.sh ]] && source /root/.autojump/etc/profile.d/autojump.sh
+#autoload -U compinit && compinit -u

@@ -3,13 +3,13 @@ export GTLIONSBASE=/usr/local/gtlions
 CURRENTPATH=$(cd `dirname $0`; pwd)
 
 # alias
-source ${GTLIONSBASE}/apps/shell/DirEvnScript/alias.sh
+source ${GTLIONSBASE}/apps/shell/DirEnvScript/alias.sh
 
 # pyenv
-#source ${GTLIONSBASE}/apps/shell/DirEvnScript/pyenv.sh
+#source ${GTLIONSBASE}/apps/shell/DirEnvScript/pyenv.sh
 
 # golang
 source ${GTLIONSBASE}/apps/golang/gosource.sh
 
 # pgdb10
-# source ${GTLIONSBASE}/apps/shell/DirEvnScript/pgdg10.sh
+# source ${GTLIONSBASE}/apps/shell/DirEnvScript/pgdg10.sh
