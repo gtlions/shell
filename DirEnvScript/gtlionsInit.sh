@@ -9,7 +9,7 @@ source ${GTLIONSBASE}/apps/shell/DirEnvScript/alias.sh
 #source ${GTLIONSBASE}/apps/shell/DirEnvScript/pyenv.sh
 
 # golang
-source ${GTLIONSBASE}/apps/golang/gosource.sh
+source /usr/local/golang/gosource.sh
 
 # pgdb10
 # source ${GTLIONSBASE}/apps/shell/DirEnvScript/pgdg10.sh
