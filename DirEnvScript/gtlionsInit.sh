@@ -1,4 +1,5 @@
 #!/bin/bash
+ln -s /usr/local/gtlions/apps/golang /usr/local/golang
 export GTLIONSBASE=/usr/local/gtlions
 CURRENTPATH=$(cd `dirname $0`; pwd)
 
