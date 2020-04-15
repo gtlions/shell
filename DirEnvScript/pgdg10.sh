@@ -1,5 +1,5 @@
 #!/bin/bash
-export GTLIONSBASE=/usr/local/gtlions
+export GOOGLEDEVBASE=/usr/local/googledev
 CURRENTPATH=$(cd `dirname $0`; pwd)
 export PGHOME=/usr/local/pgsql-10
 export PGPORT=9921

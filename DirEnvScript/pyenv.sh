@@ -1,5 +1,5 @@
 #!/bin/bash
-export GTLIONSBASE=/usr/local/gtlions
+export GOOGLEDEVBASE=/usr/local/googledev
 CURRENTPATH=$(cd `dirname $0`; pwd)
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"

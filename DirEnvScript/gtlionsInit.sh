@@ -1,6 +1,6 @@
 #!/bin/bash
-#ln -s /usr/local/gtlions/apps/golang /usr/local/golang
-export GTLIONSBASE=/usr/local/gtlions
+#ln -s /usr/local/googledev/apps/golang /usr/local/golang
+export GTLIONSBASE=/usr/local/googledev
 CURRENTPATH=$(cd `dirname $0`; pwd)
 
 # alias
