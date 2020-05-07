@@ -1,6 +1,5 @@
 [core]
     excludesfile=~/.gitignore
-	editor = vi
 [user]
     name = Gtlions Lai
     email = gtlions.l@qq.com
