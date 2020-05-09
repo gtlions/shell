@@ -87,3 +87,10 @@ export PGPORT=9921
 
 
 unset MAILCHECK
+#rdguarddogb
+export PATH=/usr/local/raydun/guarddog:/usr/local/raydun/guarddog/bin:$PATH
+unset MAILCHECK
+#rdguarddoge
+#rdsilkb
+export PATH=/usr/local/raydun/silk/bin:/usr/local/raydun/silk/sbin:$PATH
+#rdsilke
