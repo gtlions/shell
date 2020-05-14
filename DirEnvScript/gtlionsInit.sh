@@ -12,5 +12,8 @@ source ${GTLIONSBASE}/apps/shell/DirEnvScript/alias.sh
 # golang
 source /usr/local/golang/gosource.sh
 
+# node
+source ${GTLIONSBASE}/apps/shell/DirEnvScript/node.sh
+
 # pgdb10
 # source ${GTLIONSBASE}/apps/shell/DirEnvScript/pgdg10.sh
