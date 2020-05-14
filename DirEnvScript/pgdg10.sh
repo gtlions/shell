@@ -1,7 +1,7 @@
 #!/bin/bash
-export GOOGLEDEVBASE=/usr/local/googledev
+export DEVROOTBASE=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
-export PGHOME=/usr/local/pgsql-10
+export PGHOME=/usr/local/pgsql10
 export PGPORT=9921
 export PGDATA=/data/pgdata
 export PATH=$PGHOME/bin:$PATH

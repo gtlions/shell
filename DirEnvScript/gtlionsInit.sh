@@ -1,19 +1,19 @@
 #!/bin/bash
-#ln -s /usr/local/googledev/apps/golang /usr/local/golang
-export GTLIONSBASE=/usr/local/googledev
+# mkdir -p /opt/sdk;ln -s /data/sdk/google /opt/sdk/google
+export DEVROOTBASE=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
 
 # alias
-source ${GTLIONSBASE}/apps/shell/DirEnvScript/alias.sh
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/alias.sh
 
 # pyenv
-#source ${GTLIONSBASE}/apps/shell/DirEnvScript/pyenv.sh
+#source ${DEVROOTBASE}/apps/shell/DirEnvScript/pyenv.sh
 
 # golang
-source /usr/local/golang/gosource.sh
+source ${DEVROOTBASE}/apps/golang/gosource.sh
 
 # node
-source ${GTLIONSBASE}/apps/shell/DirEnvScript/node.sh
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/node.sh
 
 # pgdb10
-# source ${GTLIONSBASE}/apps/shell/DirEnvScript/pgdg10.sh
+# source ${DEVROOTBASE}/apps/shell/DirEnvScript/pgdg10.sh

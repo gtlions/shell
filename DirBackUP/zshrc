@@ -1,4 +1,4 @@
-export GOOGLEDEVBASE=/usr/local/googledev
+export DEVROOTBASE=/opt/sdk/google
 source /etc/profile
 
 # If you come from bash you might have to change your $PATH.
@@ -108,7 +108,7 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 unset MAILCHECK
 # gtlions
-source ${GOOGLEDEVBASE}/apps/shell/DirEnvScript/gtlionsInit.sh
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/gtlionsInit.sh
 
 #source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
