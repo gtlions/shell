@@ -1,5 +1,5 @@
 #!/bin/bash
-export GOOGLEDEVBASE=/usr/local/googledev
+export DEVBASEROOT=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
