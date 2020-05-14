@@ -1,5 +1,5 @@
 #!/bin/bash
-export DEVBASEROOT=/opt/sdk/google
+export DEVROOTBASE=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
 export PGHOME=/usr/local/pgsql10
 export PGPORT=9921
