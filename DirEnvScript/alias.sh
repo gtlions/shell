@@ -16,6 +16,10 @@ alias syncfrom105='rsync -avzhe ssh root@192.168.1.105:/opt/sdk/google /usr/loca
 
 alias vm111='vmrun -T ws revertToSnapshot "/data/vm/svm/c111/c111.vmx" mysnapshot && vmrun -T ws start "/data/vm/svm/c111/c111.vmx" nogui'
 
+# mkdir -p /data/oracle/golang
+# 0 */1 * * * rsync -a /opt/sdk/google/apps/golang /data/oracle/golang --delete
+# 0 */1 * * * rsync -a /opt/sdk/google/apps/golang /data/go1 --delete
+# 0 */1 * * * rsync -a /opt/sdk/google/apps/golang /data/golang --delete
 
 alias usego1='export GO111MODULE=on;export GOPROXY=https://goproxy.cn,direct;export GODIR=/data/oracle/golang/golang;export GOROOT=$GODIR/goroot;export GOPATH=$GODIR/gopath;export GOVSCODE=$GODIR/govscode;export DEVBUILDTMP=~/gtlions/NoInTime/devbuildtmp;export PATH=$GOROOT/bin:$GOPATH/bin:$GOVSCODE/bin:$PATH'
 alias usego2='export GO111MODULE=on;export GOPROXY=https://goproxy.cn,direct;export GODIR=/data/go1/golang;export GOROOT=$GODIR/goroot;export GOPATH=$GODIR/gopath;export GOVSCODE=$GODIR/govscode;export DEVBUILDTMP=~/gtlions/NoInTime/devbuildtmp;export PATH=$GOROOT/bin:$GOPATH/bin:$GOVSCODE/bin:$PATH'
