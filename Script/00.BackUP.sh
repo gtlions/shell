@@ -20,11 +20,16 @@ cd ${BACKUPDIR}
 rm -rf ${BACKUPDIR}/*
 
 mkdir -p ${TEMPDIR};rm -rf ${TEMPDIR}/*;cd ${TEMPDIR}
+
 rsync -av ~/.oh-my-zsh . --exclude-from=${SCRIPTDIR}/excludepath.txt && mv .oh-my-zsh oh-my-zsh && tar -zcf oh-my-zsh.tar.gz oh-my-zsh && mv oh-my-zsh.tar.gz ${BACKUPDIR}/ && rm -rf oh-my-zsh
+
 rsync -av ~/.ssh . --exclude-from=${SCRIPTDIR}/excludepath.txt && mv .ssh ssh && tar -zcf ssh.tar.gz ssh && mv ssh.tar.gz ${BACKUPDIR}/ && rm -rf zsh
+
+rsync -av ~/.config/nvim . --exclude-from=${SCRIPTDIR}/excludepath.txt && tar -zcf nvim.tar.gz nvim && mv nvim.tar.gz ${BACKUPDIR}/ && rm -rf nvim
 
 cp ~/.gitconfig ${BACKUPDIR}/gitconfig
 cp ~/.gitignore ${BACKUPDIR}/gitignore
 cp ~/.zshrc ${BACKUPDIR}/zshrc
 cp /etc/profile ${BACKUPDIR}/profile
+cp ~/.pip/pip.conf ${BACKUPDIR}/pip.conf
 
