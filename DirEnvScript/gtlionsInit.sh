@@ -3,6 +3,11 @@
 export DEVROOTBASE=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
 
+# envSet
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/evnSet.sh
+# linkSet
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/linkSet.sh
+
 # alias
 source ${DEVROOTBASE}/apps/shell/DirEnvScript/alias.sh
 

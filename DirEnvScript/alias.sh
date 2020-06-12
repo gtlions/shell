@@ -9,8 +9,7 @@ alias dbg="ps -ef |grep 'bin/raydun-'|grep -v grep|awk '{print $2}'|xargs kill -
 alias rd="systemctl stop raydun-server;rpm -e raydun-6.2.0-Beta.x86_64 ;rm -rf /usr/share/raydun /var/lib/raydun;rpm -ivh /opt/sdk/google/apps/portable/golang/gopath/src/github.com/raydun/raydun/dist/raydun-6.2.0-Beta.x86_64.rpm;systemctl daemon-reload;systemctl restart raydun-server"
 alias sy51="rsync --progress -av /opt/sdk/google/workspace/install_all_one 192.168.1.51:/root/"
 alias sy53="rsync --progress -av /opt/sdk/google 192.168.1.53:/usr/local/"
-export DEVBUILDDIR=~/NoInTime/complie/out
-mkdir -p ${DEVBUILDDIR}/c ${DEVBUILDDIR}/go
+
 
 alias syncfrom105='rsync -avzhe ssh root@192.168.1.105:/opt/sdk/google /usr/local --delete'
 
