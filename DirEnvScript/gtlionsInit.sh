@@ -17,6 +17,9 @@ source ${DEVROOTBASE}/apps/shell/DirEnvScript/alias.sh
 # golang
 source ${DEVROOTBASE}/apps/golang/gosource.sh
 
+# rust
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/rustEnv.sh
+
 # node
 source ${DEVROOTBASE}/apps/shell/DirEnvScript/nodeEnv.sh
 
