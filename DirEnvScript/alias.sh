@@ -1,6 +1,7 @@
 #!/bin/bash
 export DEVROOTBASE=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
+alias useageproxy="source ${DEVROOTBASE}/apps/shell/DirEnvScript/proxyUsage.sh"
 alias cdgt="cd ${DEVROOTBASE}"
 alias cdwk="cd ${DEVROOTBASE}/workspace"
 alias cdgo="cd ${DEVROOTBASE}/apps/golang"
