@@ -71,37 +71,20 @@ for i in /etc/profile.d/*.sh /etc/profile.d/sh.local ; do
         fi
     fi
 done
+
 unset i
 unset -f pathmunge
-export PATH=/usr/local/zsh/bin:$PATH
 export PATH=/usr/local/git/bin:$PATH
-#export PATH=/usr/local/gcc830/bin:$PATH
-export PATH=/usr/local/node/bin:$PATH
-export PATH=/usr/local/phantomjs/bin:$PATH
-#source /usr/local/gtlions/gtlionsInit.sh
-export PATH=/usr/pgsql-10/bin:$PATH
+export PATH=/usr/local/zsh/bin:$PATH
+export PATH=/usr/local/nvim/usr/bin:$PATH
+alias vim='nvim'
+alias vi='nvim'
 #rdpgdbb
 export PGDATA=/data/pgdata
 export PGPORT=9921
 #rdpgdbe
-
-
-unset MAILCHECK
-export PATH=/usr/local/nvim/usr/bin:$PATH
-alias vi=nvim
-alias vim=nvim
-if [ $USER = "oracle" ]; then
-        if [ $SHELL = "/bin/ksh" ]; then
-              ulimit -p 16384
-              ulimit -n 65536
-        else
-              ulimit -u 16384 -n 65536
-        fi
-fi
 #rdguarddogb
 export PATH=/usr/local/raydun/guarddog:/usr/local/raydun/guarddog/bin:$PATH
 unset MAILCHECK
+export PATH=/usr/pgsql-10/bin:$PATH
 #rdguarddoge
-#rdsilkb
-export PATH=/usr/local/raydun/silk/bin:/usr/local/raydun/silk/sbin:$PATH
-#rdsilke
