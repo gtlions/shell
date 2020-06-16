@@ -3,6 +3,8 @@
 export DEVROOTBASE=/opt/sdk/google
 CURRENTPATH=$(cd `dirname $0`; pwd)
 
+# proxy 
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/proxyUsage.sh
 # envSet
 source ${DEVROOTBASE}/apps/shell/DirEnvScript/envSet.sh
 # linkSet
