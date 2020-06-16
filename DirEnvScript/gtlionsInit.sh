@@ -18,7 +18,7 @@ source ${DEVROOTBASE}/apps/shell/DirEnvScript/alias.sh
 source ${DEVROOTBASE}/apps/golang/gosource.sh
 
 # node
-source ${DEVROOTBASE}/apps/shell/DirEnvScript/node.sh
+source ${DEVROOTBASE}/apps/shell/DirEnvScript/nodeEnv.sh
 
 # pgdb10
-# source ${DEVROOTBASE}/apps/shell/DirEnvScript/pgdg10.sh
+# source ${DEVROOTBASE}/apps/shell/DirEnvScript/pgdg10Env.sh
